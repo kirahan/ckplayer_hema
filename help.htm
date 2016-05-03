@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>升级文档</title>
+<style type="text/css">
+body,td,th {
+	font-size: 14px;
+	line-height: 22px;
+}
+p {
+	padding-left: 20px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+</head>
+
+<body>
+<p>6.8升级说明<br />
+6.4升级至6.8的方法</p>
+<p>1：替换ckplayer.swf<br />
+  2：替换ckplayer.js中的315行（(function() {）及以下的所有内容<br />
+  3：如果想在滚动文字广告使用发光滤镜，需要ckplayer.js的ckstyle()函数中和ckplayer.xml文件中增加pm_glowfilter参数。详细的可参考6.5的该函数<br />
+  4： ckplayer.js和ckplayer.xml中setup参数最后新增加三个参数，默认是0
+</p>
+<p>6.5升级至6.8的方法<br />
+1：替换ckplayer.swf<br />
+2：替换ckplayer.js中的315行（(function() {）及以下的所有内容<br />
+3：
+ckplayer.js和ckplayer.xml中setup参数最后新增三个参数，默认是0
+</p>
+<p>  6.6升级至6.8的方法<br />
+1：替换ckplayer.swf<br />
+2：替换ckplayer.js中的315行（(function() {）及以下的所有内容<br />
+3：
+ckplayer.js和ckplayer.xml中setup参数最后新增一个参数，默认是0 </p>
+<p>6.7升级至6.8的方法</p>
+<p>1：替换ckplayer.swf<br />
+	2：
+	换ckplayer.js中的315行（(function() {）及以下的所有内容<br />
+	一：修复Bug</p>
+<p>1：修复了已知的bug<br />
+	2：修正了html5中监听time的错误<br />
+	3：新加了几个交互函数
+</p>
+<p>二：增加功能<br />
+	1：增加了全屏模式下启用键盘输入的功能，设置方法分二步：调用代码var flashvars={}里增加fs:'1',以及var params={}里增加allowFullScreenInteractive:true
+</p>
+<p>感谢各位朋友对ckplayer的支持，在本次升级中，许多朋友提供了好的建议，虽然因为考虑到大部分用户的需求后决定一些功能没有对其进行更改。</p>
+</body>
+</html>

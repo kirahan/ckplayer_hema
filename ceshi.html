@@ -1,0 +1,26 @@
+
+<div id="a1"></div>
+
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+	var bgPath='barrage/2015/json';//弹幕文件（路径），请自行根据你的程序进行定义，注意文件夹的第一级目录要存在，权限要可写，不加后缀，要修改后缀请到barrage.php里修改
+	var isLive=true;//是否是直播，true=是,false=普通
+</script>
+<script type="text/javascript" src="barrage.js" charset="utf-8"></script>
+<script type="text/javascript">
+    var flashvars={
+        f:'rtmp://dlrtmp.cdn.zhanqi.tv/zqlive/33765_6qakZ',
+		fs:'1',
+		p:1,
+		b:0,
+		c:0,
+		s:0,
+		h:3,
+		loaded:'loadedHandler'
+    };
+	var video=['http://dlhls.cdn.zhanqi.tv/zqlive/33765_6qakZ.m3u8'];
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',allowFullScreenInteractive:true};
+	var support=['all']
+    CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','800','600',false,flashvars,video,params);
+
+</script>
